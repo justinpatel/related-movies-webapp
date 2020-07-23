@@ -5,11 +5,10 @@ I have merged the data of two APIs:
 1. https://tastedive.com/api/similar is for getting related movies title
 2. http://www.omdbapi.com/ to get the rating of received the related movies title
 
-See the snapshot from webapp [here](https://github.com/justinpatel/related-movies-webapp/raw/master/snapshot.JPG)
+See the snapshot from webapp ![Image](https://github.com/justinpatel/related-movies-webapp/raw/master/snapshot.JPG)
 
 get code using ```git clone https://github.com/justinpatel/related-movies-webapp.git```
 
 ## How to run?
 hit ```cd related-movies-webapp```
 then ```python manage.py runserver``` and voila, open the localhost url link in browser.
-
