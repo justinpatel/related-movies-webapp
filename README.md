@@ -10,6 +10,6 @@ See the snapshot from webapp [here](https://github.com/justinpatel/related-movie
 get code using ```git clone https://github.com/justinpatel/related-movies-webapp.git```
 
 ## How to run?
-hit ```cd relatedMovies```
+hit ```cd related-movies-webapp```
 then ```python manage.py runserver``` and voila, open the localhost url link in browser.
 
