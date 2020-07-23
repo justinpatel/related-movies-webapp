@@ -7,9 +7,9 @@ I have merged the data of two APIs:
 
 See the snapshot from webapp [here](https://github.com/justinpatel/related-movies-webapp/raw/master/snapshot.JPG)
 
-get code using ```git clone ```
+get code using ```git clone https://github.com/justinpatel/related-movies-webapp.git```
 
-###How to run?
+## How to run?
 hit ```cd relatedMovies```
 then ```python manage.py runserver``` and voila, open the localhost url link in browser.
 
