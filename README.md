@@ -6,3 +6,10 @@ I have merged the data of two APIs:
 2. http://www.omdbapi.com/ to get the rating of received the related movies title
 
 See the snapshot from webapp [here](https://github.com/justinpatel/related-movies-webapp/raw/master/snapshot.JPG)
+
+get code using ```git clone ```
+
+###How to run?
+hit ```cd relatedMovies```
+then ```python manage.py runserver``` and voila, open the localhost url link in browser.
+
