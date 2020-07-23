@@ -5,4 +5,4 @@ I have merged the data of two APIs:
 1. https://tastedive.com/api/similar is for getting related movies title
 2. http://www.omdbapi.com/ to get the rating of received the related movies title
 
-See the snapshot from webapp [here](https://blob.githubusercontent.com/justinpatel/related-movies-webapp/master/snapshot.JPG)
+See the snapshot from webapp [here](https://github.com/justinpatel/related-movies-webapp/blob/master/snapshot.JPG)
