@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<form action="{% url 'index' %}" class="form-group" method="POST">
+    {% csrf_token %}
+    <input type="text" name="movie" class="form-control" placeholder="Enter a movie name">
+    <input type="number" name="limit" class="form-control" placeholder="Enter the no. of movies you want to get" value=5>
+    <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+<div>
+    {% if movie_list %}
+    <h2>{{ name }}</h2> next you can watch these:
+    <ul>
+        {% for movie in movie_list %}
+            <li>{{ movie }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
+{% endblock %}
